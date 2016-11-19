@@ -1,0 +1,5 @@
+---
+- hosts: all
+    tasks:
+         - name: Hello, world
+           shell: 'echo "Hey there! --ansible" > hello_world.txt'
