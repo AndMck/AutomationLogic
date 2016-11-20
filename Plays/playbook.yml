@@ -2,4 +2,8 @@
 - hosts: all
     tasks:
          - name: Hello, world
+           ignore_errors: yes
            shell: 'echo "Hey there! --ansible" > hello_world.txt'
+
+
+  
